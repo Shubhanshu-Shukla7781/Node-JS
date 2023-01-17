@@ -21,7 +21,7 @@ const demodataschema = new mongoose.Schema({
   category: String,
   id: Number,
   title: String,
-  timestamp: String,
+  timestamp: Date,
 });
 
 // A mongoose schema defines the structure of the document, default values
